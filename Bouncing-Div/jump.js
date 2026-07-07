@@ -19,7 +19,7 @@ jump.addEventListener("click", ()=>{
          flag=1;
     let ball = document.querySelector(".ball");
     id = setInterval(()=>{
- ball.classList.toggle("bottom-100");},500);
+ ball.classList.toggle("bottom-100");},600);
     }else{
         flag=0;
         clearInterval(id);
